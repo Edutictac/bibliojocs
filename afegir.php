@@ -12,132 +12,148 @@ if (file_exists($archivo))
 unlink($archivo) ;
 }
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Mobirise Free Bootstrap Template, https://mobirise.com -->
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml">
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <meta http-equiv="Content-Language" content="es">
-      <meta name="description" content="Actividades educativas para
-        infantil y primaria">
-      <meta name="keywords" content="actividades, infantil, primaria,
-        educación, educativas, juegos, activitats, jocs, matemáticas, valencià, conocimiento del medio, educación musical, lenguaje, lecto-escritua">
-      <meta name="sasogu" content="edutictac">
+<HTML>
+<HEAD>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
-  <link rel="stylesheet" href="assets/mobirise/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise-slider/style.css">
-  <link rel="stylesheet" href="assets/mobirise-gallery/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
-      <!-- Google fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-
-      <!-- font awesome -->
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-      <!-- bootstrap -->
-      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-
-      <!-- animate.css -->
-      <link rel="stylesheet" href="assets/animate/animate.css" />
-      <link rel="stylesheet" href="assets/animate/set.css" />
-
-      <!-- gallery -->
-      <link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
-
-      <!-- favicon -->
-      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-      <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-
-      <link rel="stylesheet" href="assets/style.css">
-
-    <title>Bibliojocs</title>
-</head>
-<body>
-  <script>
-
-  function valida_codigo(){
-
-         var a="GUARDAR";
-         document.Form2.nombre_boton.value=a;
-         document.Form2.submit();
-   }
-
-  </script>
-<div id='text1'>
-<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="menu-74">
-    <div class="mbr-navbar__section mbr-section">
-        <div class="mbr-section__container container">
-            <div class="mbr-navbar__container">
-                <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
-                    <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
-                        <span class="mbr-brand__logo"><a href="index.php"><img class="mbr-navbar__brand-img mbr-brand__img" src="assets/images/logoweb.png" alt="Bibliojocs"></a></span>
-                        <span class="mbr-brand__name"><a class="mbr-brand__name text-white" href="index.php">BIBLIOJOCS</a></span>
-                    </span>
-                </div>
-                <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span></div>
-                <div class="mbr-navbar__column mbr-navbar__menu">
-                    <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
-                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active">
-                          <!--formulario-->
-                  <form name="Form2" id="test_upload" name="test_upload" target="_self" action="busqueda.php"  enctype="multipart/form-data" method="post">
-                  <div id="texto_formulario" style="z-index:1;" align="left">
-                  <input type="text"  maxlength="200" style="width:200px;text-align:left"  id="cp" name="busqueda"  value='' >
-
-                  <!--variable para seleccionar el tipo de boton apretado-->
-                  <input type="hidden" maxlength="20" id="Editbox2" style="position:absolute;left:0px;top:0px;width:58px;font-family:Arial;font-size:11px;z-index:0" name="nombre_boton" tabindex=1 value="">
-
-                  <input name="boton" type="button"  onclick='valida_codigo()'  value="<?php echo "&nbsp;&nbsp;Buscar&nbsp;&nbsp;";?>" style="font-family:Arial;font-weight:bold;font-size:14px;z-index:14" tabindex=1 />
-                  <input name="boton" type="hidden"  value="<?php echo "$boton_quitar";?>" style="font-family:Arial;font-weight:bold;font-size:13px;z-index:14" tabindex=8 />
-                  <input name="boton" type="hidden"  onclick='alerta();imprimir()' value="<?php echo "$boton_imprimir";?>" style="font-family:Arial;font-weight:bold;font-size:14px;z-index:13" tabindex=8 />
-                        <!--fin formulario-->
-
-
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted mbr-parallax-background mbr-after-navbar" id="header1-73" style="background-image: url(assets/images/background2.png);">
-    <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left">
-        <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(76, 105, 114);"></div>
-        <div class="mbr-box__container mbr-section__container container">
-            <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-left">
-                <div class="row"><div class=" col-sm-96">
-                    <div class="mbr-hero animated fadeInUp">
-<script>
-
-function valida_codigo(){
-
-       var a="GUARDAR";
-       document.Form2.nombre_boton.value=a;
-       document.Form2.submit();
- }
-
-</script>
-
-
-    </head>
+<meta http-equiv="Content-Type" content="text/html; UTF-8">
+    <meta name="description" content="Actividades educativas para
+      infantil y primaria">
+    <meta name="keywords" content="actividades, infantil, primaria,
+      educación, educativas, juegos, activitats, jocs, matemáticas, valencià, conocimiento del medio, educación musical, lenguaje, lecto-escritua">
+    <meta name="sasogu" content="edutictac">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="My RSS Feed" href="../rss.php" />
     <title>Bibliojocs</title>
   </head>
   <body>
-    <div id='text1'>
-    <br>
-    <br>
-    <br>
-    <br>
-</div>
+    
+<TITLE></TITLE>
+<link rel="stylesheet" href="<?php echo "$ruta_absoluta";?>/sombra.css" type="text/css" media="screen" />
+<style type="text/css">
+#contenedor_texto{
+   padding: 0px 10px 0px 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:14px;
+   color:<?php echo "$color_etiquetas";?>;
+   line-height:200%;
+      }
+#titulo_menu{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:20px;
+   color:<?php echo "$color_titulo";?>;
+   padding: 150px 100px 0px 100px;
+}
+
+#titulo_menu2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:15px;
+   color:<?php echo "$color_etiquetas";?>;
+   padding: 10px 100px 0px 100px;
+}
+#tabla{
+   padding: 10px 100px 0px 100px;
+}
+#imagen{
+   padding: 10px 0px 0px 0px;
+}
+#ancho_fijo{
+   width:500px;
+}
+#texto_formulario{
+   padding: 0px 0px 10px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12px;
+   color:<?php echo "$color_etiquetas";?>;
+      }
+#texto_formulario2{
+   padding: 0px 0px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12px;
+   color:<?php echo "$color_etiquetas";?>;
+      }
+      
+#texto_formulario3{
+   padding: 0px 0px 10px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12px;
+   color:<?php echo "$color_etiquetas";?>;
+      }
+#texto_incidencias{
+   padding: 3px 3px 3px 3px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12px;
+   color:<?php echo "$color_etiquetas";?>;
+       }
+#texto_incidencias2{
+   padding: 0px 0px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:10px;
+   color:<?php echo "$color_etiquetas";?>;
+       }
+#separador{
+   padding: 10px 0px 100px 0px;
+}
+#borde{
+   padding: 10px 10px 10px 10px;
+}
+
+</style>
+<script>
+function esFechaValida(fecha,campo){
 
 
-<div class="topbar animated fadeInLeftBig"></div>
+
+    if (fecha != undefined && fecha.value != "" ){
+        if (!/^\d{2}\/\d{2}\/\d{4}$/.test(fecha.value)){
+            alert("<?php echo "$fecha_erronea";?>");
+            document.Form2.fecha_incidencia.focus()
+            return false;
+      }
+
+        var dia  =  parseInt(fecha.value.substring(0,2),10);
+        var mes  =  parseInt(fecha.value.substring(3,5),10);
+        var anio =  parseInt(fecha.value.substring(6),10);
+
+    switch(mes){
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            numDias=31;
+            break;
+        case 4: case 6: case 9: case 11:
+            numDias=30;
+            break;
+        case 2:
+            if (comprobarSiBisisesto(anio)){ numDias=29 }else{ numDias=28};
+            break;
+        default:
+            alert("<?php echo "$fecha_erronea";?>");
+            document.Form2.fecha_incidencia.focus()
+            return false;
+
+    }
+
+       if (dia>numDias || dia==0){
+            alert("<?php echo "$fecha_erronea";?>");
+            document.Form2.fecha_incidencia.focus()
+            return false;
+
+        }
+        return true;
+    }
+}
+
+function comprobarSiBisisesto(anio){
+if ( ( anio % 100 != 0) && ((anio % 4 == 0) || (anio % 400 == 0))) {
+   return true;
+    }
+
+}
+</script>
 
 <script>
 
@@ -160,7 +176,7 @@ function valida_codigo(){
        document.Form2.descripcion_recurso.focus()
        return 0;
        }
-
+       
        var a="GUARDAR";
        document.Form2.nombre_boton.value=a;
        document.Form2.submit();
@@ -224,12 +240,12 @@ window.alert("<?php echo "$DOCUMENTO_alerta1";?>" ) ;
 }
 }
 
-
+       
    }
    //si estoy aqui es que no se ha podido submitir
 
    return 0;
-
+   
  }
 function cerrar(){
 var a="CERRAR";
@@ -267,9 +283,7 @@ $fecha_hoy = date("d/m/Y");
 
 <div id="container">
 <div id="titulo_menu">
-  <br><br><br><br><br>
 <b>FORMULARI PER AFEGIR RECURSOS A BIBLIOJOCS</b>
-<br><br><br>
 </div>
 
 <div id="titulo_menu2" align="justify">
@@ -298,20 +312,19 @@ $codigo_recurso=$upload_centro.md5($usuario).$codigo_fecha;
 
 <!--nom i link-->
 <div id="texto_formulario" style="z-index:1;" align="left">
-
-<br><br>
-NOM RECURS
+	
+	
+	
 <?php echo "<b>$RECURSOS_TEXTO1&nbsp;</b> ";?>
 <input type="text"  maxlength="200" style="width:400px;text-align:left"  id="cp" name="RECURSO_NOMBRE"  value='' >
 
 
 
-
+    
     </div>
 
 
 <div id="texto_formulario" style="z-index:1;" align="left">
-<br><br>LINK
 <?php echo "<b>$RECURSOS_TEXTO2&nbsp;</b> ";?>
 <input type="url"  maxlength="200" style="width:400px;text-align:left"  id="cp" name="RECURSO_LINK"  value='' >
 </div>
@@ -326,7 +339,6 @@ NOM RECURS
 
 
 <div id="texto_formulario2"  align="left">
-<br><br>  DESCRIU EL RECURS
 <?php echo "<b>$RECURSOS_TEXTO3</b>  "; ?>
 </div>
 <div id="texto_formulario3"  align="left">
@@ -459,7 +471,7 @@ NOM RECURS
 <!--PRIMARIA CAS-->
 <div id="texto_formulario2"  align="left">
 	<br>
-
+	
 <a></a>
 </div>
 <div id="texto_formulario2"  align="left">
@@ -707,36 +719,11 @@ include "../cerrar_conexion_biblio.php";
 </table>
 </td></tr>
 </table>
+</div></div></div>
 
-<!-- FOOTER -->
-<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-91" style="background-color: rgb(68, 68, 68);">
+</div><!--termina div tabla-->
+<div id="separador"></div>
 
-    <div class="mbr-section__container container">
-        <div class="mbr-footer mbr-footer--wysiwyg row">
-            <div class="col-sm-12">
-                <p class="mbr-footer__copyright"></p><p>2016 Comunitat EduTicTac <a href="http://edutictac.es" class="text-gray">www.edutictac.es</a>
-                  <a
-                    href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES">Creative Commons Licence</a></p>
-                </p><p></p>
-            </div>
-        </div>
-    </div>
-</footer>
+</div>
 
-
-  <script src="assets/jquery/jquery.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
-  <script src="assets/smooth-scroll/SmoothScroll.js"></script>
-  <script src="assets/jarallax/jarallax.js"></script>
-  <script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
-  <script src="assets/masonry/masonry.pkgd.min.js"></script>
-  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/social-likes/social-likes.js"></script>
-  <script src="assets/mobirise/js/script.js"></script>
-  <script src="assets/mobirise-gallery/script.js"></script>
-  <!-- # Footer Ends -->
-
-
-</body>
-</html>
+</HTML>

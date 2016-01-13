@@ -48,8 +48,8 @@
                         <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active">
 
                         <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://edutictac.es/jclic/indexjclic.html">JCLIC</a>
-                        </li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="afegir.php">AFEGIR RECURS</a></li>
-                          <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="mailto:contacte@edutictac.es">CONTACTE</a></li>
+                        </li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="afegir.php">AÑADIR RECURSO</a></li>
+                          <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="mailto:contacte@edutictac.es">CONTACTO</a></li>
 
                           <!--formulario-->
                   <form name="Form2" id="test_upload" name="test_upload" target="_self" action="busqueda.php"  enctype="multipart/form-data" method="post">
@@ -78,13 +78,17 @@
             <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-left">
                 <div class="row"><div class=" col-sm-6">
                     <div class="mbr-hero animated fadeInUp">
-                        <h1 class="mbr-hero__text">Benvinguts</h1>
-                        <p class="mbr-hero__subtext">Bibliojocs és un espai on compartir recursos educatius secuenciats per cicles i materies.&nbsp; Aquest és un projecte obert en el que tot aquell interessat pot participar. <br></p>
+<br>
+<br>
+<br>
+                        <h1 class="mbr-hero__text">Bienvenidos</h1>
+
+                        <p class="mbr-hero__subtext">Bibliojocs es un espacio donde compartir recursos educativos secuenciados por ciclos i materias.&nbsp; Este es un proyecto abierto en el que todo aquel que esté interesado puede participar. <br></p>
                     </div>
                     <div class="mbr-buttons btn-inverse mbr-buttons--left">
-                      <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#valencia">VALENCIÀ</a>
-                      <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#castella">CASTELLÀ</a>
-                      <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="top.php">SELECCIÓ</a> </div>
+                      <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="index.php#valencia">VALENCIANO</a>
+                      <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#castella">CASTELLANO</a>
+                      <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="top.php">SELECCIÓN</a> </div>
                 </div></div>
             </div></div>
         </div>
@@ -100,7 +104,7 @@
                 <div class="row"><div class=" col-sm-6">
                     <div class="mbr-hero animated fadeInUp">
                         <h1 class="mbr-hero__text"></h1>
-                        <!-- <p class="mbr-hero__subtext">Bibliojocs és un espai on compartir recursos educatius secuenciats per cicles i materies.&nbsp; Aquest és un projecte obert en el que tot aquell interessat pot participar. <br></p> -->
+                        <!-- <p class="mbr-hero__subtext">Bibliojocs es un espacio donde compartir recursos educativos secuenciados por ciclos i materias.&nbsp; Este es un proyecto abierto en el que todo aquel que esté interesado puede participar. <br></p> -->
                     </div>
                     <div class="mbr-buttons btn-inverse mbr-buttons--left">
                        <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#infantilv"><img alt="" src="assets/images/infantil.png" style="border: 0px solid ; width: 56px; height: 51px;">INFANTIL</a>

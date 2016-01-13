@@ -7,15 +7,10 @@
   <meta name="generator" content="Mobirise v2.6.1, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <meta name="description" content="">
-
+  <meta name="description" content="Free Bootstrap Template">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="assets/mobirise/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise-slider/style.css">
-  <link rel="stylesheet" href="assets/mobirise-gallery/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <title>Bibliojocs</title>
 
@@ -78,6 +73,9 @@
             <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-left">
                 <div class="row"><div class=" col-sm-6">
                     <div class="mbr-hero animated fadeInUp">
+<br>
+<br>
+<br>
                         <h1 class="mbr-hero__text">Benvinguts</h1>
                         <p class="mbr-hero__subtext">Bibliojocs és un espai on compartir recursos educatius secuenciats per cicles i materies.&nbsp; Aquest és un projecte obert en el que tot aquell interessat pot participar. <br></p>
                     </div>
