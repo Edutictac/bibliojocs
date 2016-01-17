@@ -16,6 +16,7 @@
 
 </head>
 <body>
+
   <script>
 
   function valida_codigo(){
@@ -44,7 +45,7 @@
 
                         <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://edutictac.es/jclic/indexjclic.html">JCLIC</a>
                         </li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="afegir.php">AFEGIR RECURS</a></li>
-                          <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="mailto:contacte@edutictac.es">CONTACTE</a></li>
+                          <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="#form">CONTACTE</a></li>
 
                           <!--formulario-->
                   <form name="Form2" id="test_upload" name="test_upload" target="_self" action="busqueda.php"  enctype="multipart/form-data" method="post">
@@ -53,7 +54,7 @@
                   <!--variable para seleccionar el tipo de boton apretado-->
                   <input type="hidden" maxlength="20" id="Editbox2" style="position:absolute;left:0px;top:0px;width:58px;font-family:Arial;font-size:11px;z-index:0" name="nombre_boton" tabindex=1 value="">
                   <input name="boton" type="button"  onclick='valida_codigo()'  value="<?php echo "&nbsp;&nbsp;Buscar&nbsp;&nbsp;";?>" style="font-family:Arial;font-weight:bold;font-size:13px;z-index:13" tabindex=1 />
-                    <!--fin formulario-->
+                </form><!--fin formulario-->
 
                          <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="blog.html"></a></li></ul> </div>
                         <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active">
@@ -77,7 +78,7 @@
 <br>
 <br>
                         <h1 class="mbr-hero__text">Benvinguts</h1>
-                        <p class="mbr-hero__subtext">Bibliojocs és un espai on compartir recursos educatius secuenciats per cicles i materies.&nbsp; Aquest és un projecte obert en el que tot aquell interessat pot participar. <br></p>
+                        <p class="mbr-hero__subtext">Bibliojocs és un espai on compartir recursos educatius de infantil i primària secuenciats per cicles i materies.&nbsp; Aquest és un projecte obert en el que tot aquell interessat pot participar. <br></p>
                     </div>
                     <div class="mbr-buttons btn-inverse mbr-buttons--left">
                       <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#valencia">VALENCIÀ</a>
@@ -324,6 +325,38 @@
                        <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="materies.php?busqueda=%3VMusica%"><img alt=""  src="assets/images/ciclo3.png" style="border: 0px solid ; width: 41px; height: 51px;">CICLE 3</a>
                        </div>
             </div>
+</section>
+
+<!-- FORM -->
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="form" style="background-color: rgb(239, 239, 239);">
+    <div class="mbr-section__container mbr-section__container--std-padding container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
+                        <div class="mbr-header mbr-header--center mbr-header--std-padding">
+                            <h2 class="mbr-header__text">FORMULARI DE CONTACTE</h2>
+                        </div>
+                        <div data-form-alert="true"></div>
+                        <form action="contac.php" method="post" data-form-title="CONTACT FORM">
+                            <input type="hidden" value="" data-form-email="true">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" required="" placeholder="Nom*" data-form-field="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" placeholder="Missatge" rows="7" data-form-field="Message"></textarea>
+                            </div>
+                            <div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-warning">CONTACTA'NS</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- FOOTER -->
